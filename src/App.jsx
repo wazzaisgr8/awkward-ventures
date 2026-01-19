@@ -207,7 +207,7 @@ const App = () => {
             className="group"
           >
             <a 
-              href="mailto:hello@awkwardventures.com" 
+              href="mailto:hello@awkward.ventures" 
               className="text-4xl md:text-7xl font-bold tracking-tighter hover:text-[#A2D149] transition-colors duration-300"
             >
               Start the awkward conversation.
