@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { Analytics } from '@vercel/analytics/react'; // This is for Vite/React
 import tailwindcss from '@tailwindcss/vite' // This is the line that defines "tailwindcss"
 
 // https://vitejs.dev/config/
