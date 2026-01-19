@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Analytics } from '@vercel/analytics/next';
 
 const TruthHover = ({ corporate, reality }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -219,7 +218,6 @@ const App = () => {
             &copy; {new Date().getFullYear()} AWKWARD VENTURES &mdash; NO FLUFF.
           </div>
         </Section>
-                <Analytics />
       </main>
 
       {/* Custom Cursor / Noise Layer */}
